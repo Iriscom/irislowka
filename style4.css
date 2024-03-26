@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url(F77\ Minecraft.woff) format("woff");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraft';
+}
+body{
+    background-color: rgb(34, 34, 34);
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+.logo{
+    margin-right: auto;
+    color: white;
+    cursor: pointer;
+
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links .a1 a:hover {
+    color: rgb(150, 255, 201);
+}
+.nav_links .a2 a:hover {
+    color: rgb(245, 254, 152);
+}
+.nav_links .a3 a:hover {
+    color: rgb(254, 152, 152);
+}
+.nav_links .a4 a:hover {
+    color: rgb(152, 247, 254);
+}
+.nav_links .a5 a:hover {
+    color: rgb(152, 160, 254);
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: rgb(161, 160, 160);
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: rgb(177, 177, 177);
+}
+.app-text p:hover{
+    color: rgb(242, 242, 242);
+}
+.app-picture{
+    float: right;
+}
+.app-picture img{
+    width: 100%;
+    margin-top: -100px;
+    padding-left: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    height: 100px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 1100px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #111;
+    width: 100vw;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
