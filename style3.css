@@ -94,7 +94,7 @@ header nav ul li a{
 
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     right: 0;
     background: #111;
@@ -105,8 +105,8 @@ footer{
 }
 .footer-content{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
     text-align: center;
 }
@@ -118,7 +118,7 @@ footer{
 }
 .footer-content p{
     max-width: 1100px;
-    margin: 10px auto;
+    margin: 90px auto;
     line-height: 28px;
     font-size: 14px;
 }
@@ -162,5 +162,25 @@ footer{
     font-weight: 200;
 }
 marquee{
-    color: white;
+    color: rgb(255, 255, 255);
+}
+section {
+    padding: 40px;
+    margin: 40px;
+    background-color: #4a4a4a;
+    border-radius: 6px;
+}
+.article {
+    padding-top: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #fbfbfb;
+}
+.article h4{
+    color: rgb(139, 163, 224);
+}
+.article p{
+    color: rgb(202, 247, 251);
+}
+.honew{
+    color: rgb(237, 145, 145);
 }
