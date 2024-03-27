@@ -82,6 +82,7 @@ header nav ul li a{
 }
 .app-text p:hover{
     color: rgb(242, 242, 242);
+    filter: drop-shadow(0 0 5px #86cbe2);
 }
 .app-picture{
     float: right;
